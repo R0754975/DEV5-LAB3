@@ -2,6 +2,16 @@ export default class Weather {
     constructor(api_key) {
         this.apiKey = api_key;
 
+        // check if weather data is in localstorage
+        // check if timestamp from localstorage is older than 10 minutes
+
+        if (localStorage.getItem('weather') && Date.now() - localStorage.getItem('timestamp') < 600000 // 10 minutes
+        ) {
+        // get data from localstorage
+            const weatherData = JSON.parse(localStorage.getItem('weather'));
+        } else {
+            this.getLocation();
+        }
     }
    
     getLocation() {
