@@ -19,7 +19,7 @@ else if(temp < 10) {
 }
 else if(temp < 20) {
   edamam.getRecipe("b79327d05b8e5b838ad6cfd9576b30b6");
-  edamamText.innerHTML = "it's an oke temperature outside. Have some chicken.";
+  edamamText.innerHTML = "It's an oke temperature outside. Have some chicken.";
 }
 else if(temp < 30) {
   edamam.getRecipe("b20815eac65ee2fa5f848f56c16056dd");
