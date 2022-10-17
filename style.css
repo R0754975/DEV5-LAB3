@@ -1,5 +1,5 @@
 body {
-  margin: O;
+  margin: 0;
 }
 
 .edamam {
@@ -20,4 +20,19 @@ body {
   height: 80%;
   margin: 0 auto;
   display: block;
+}
+.edamam .edamam__image {
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.edamam .edamam__title {
+  color: #6ACC00
+}
+
+.edamam .edamam__text {
+  color: #343a40;
 }
